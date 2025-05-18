@@ -25,7 +25,7 @@ class AuthServices {
         'uid': userCredential.user!.uid,
         'score': 0,
       });
-      result = "User registered successfully";
+      result = "success";
       } else {
         result = "Please fill all fields";
       }
