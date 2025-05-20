@@ -59,7 +59,7 @@ class _SignUpPageState extends State<SignUpPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Image.asset('assets\pet-and-parent.png'),
+              Image.asset('assets/petAndParent.png'),
               const SizedBox(height: 20),
 
               TextField(
