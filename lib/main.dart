@@ -4,9 +4,8 @@ import 'package:pet_o_care/firebase_options.dart';
 import 'package:pet_o_care/signUp.dart';
 
 Future<void> main() async {
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-);
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 
@@ -25,5 +24,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-  
