@@ -19,7 +19,7 @@ class _NavigationbarState extends State<Navigationbar> {
     nearbyOptions(),
     ChatBotPage(),
     HomePage(),
-    ProfilePage(),
+    PetProfilePage(),
     AdoptionPage(),
   ];
 
