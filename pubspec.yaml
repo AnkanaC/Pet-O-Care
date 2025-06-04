@@ -39,6 +39,9 @@ dependencies:
   firebase_auth: ^5.5.3
   curved_navigation_bar: ^1.0.6
   google_generative_ai: ^0.4.7
+  circular_menu: ^4.0.0
+  fab_circular_menu: ^1.0.2
+  font_awesome_flutter: ^10.8.0
 
 dev_dependencies:
   flutter_test:
